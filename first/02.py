@@ -30,3 +30,4 @@ training_op = optimizer.apply_gradients(grads_and_vars_feed)
 
 init = tf.global_variables_initializer()
 saver = tf.train.Saver()
+
